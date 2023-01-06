@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+}
+.text-primary{
+    color: orangered;
+}
+.btn-primary{
+    color: aliceblue;
+    font-weight: 700;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: orangered;
+
+}
+.nav-title{
+font-weight: 800;
+font-size: 45px;
+}
+
+.header{
+    background: #fff8f3;
+    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+}
+.banner-subtitle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color:indigo;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section */
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    padding: 130px 156px;
+    text-align: center;
+}
+
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: darkslategray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.info-title{
+    font-size: 20px;
+    color:dimgray
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
