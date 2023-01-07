@@ -169,3 +169,26 @@ Section {
 .Changes{
     display: flex;
 }
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+.Contact{
+    display: flex;
+    gap: 150px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type=text], input[type=text] textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;    
+}
+.contact-connect a{
+    text-decoration: none;
+}
