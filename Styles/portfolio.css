@@ -7,7 +7,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li {
@@ -42,7 +42,7 @@ nav ul {
 
 .header {
     background: #fff8f3;
-    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
+    background-image: url('../Media/Images/Others/header_bg.png'), url('../Media/Images/Others/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
@@ -176,9 +176,9 @@ Section {
 /* contact styles */
 .Contact{
     display: flex;
-    gap: 150px;
+    gap: 160px;
     background: #FFF8F3;
-    padding: 130px 200px;
+    padding: 130px 220px;
 }
 .contact .section-title{
     text-align: left;
